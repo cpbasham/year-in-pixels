@@ -1,20 +1,16 @@
-export const color = {
-  blue: "sad",
-  red: "angry",
-  green: "happy"
+export var moodKey = {
+  currentMoodIndex: 0,
+  moods: [
+    {mood: "angry", color: "#550000"},
+    {mood: "sad",   color: "#000055"},
+    {mood: "happy", color: "#005500"}
+  ]
 }
 
-export const year = {
-  january: [],
-  february: [],
-  march: [],
-  april: [],
-  may: [],
-  june: [],
-  july: [],
-  august: [],
-  september: [],
-  october: [],
-  november: [],
-  december: []
+export var moods = {
+  2017: {
+    8: {
+      11: 0
+    }
+  }
 }

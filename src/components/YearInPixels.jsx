@@ -10,7 +10,7 @@ export default class YearInPixels extends React.Component {
   render() {
     return (
       <div className="YearInPixels">
-        <Month />
+        <Month month={""+new Date().getMonth()} year={""+new Date().getFullYear()}/>
       </div>
     );
   }

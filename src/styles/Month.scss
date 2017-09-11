@@ -1,5 +1,23 @@
 .Month {
+  width: 80%;
   margin: auto;
   text-align: auto;
   line-height: 0;
+
+  .color-picker {
+    display: block;
+  }
+
+  .day {
+    display: inline-block;
+    width: 14%;
+    padding-top: 14%;
+    border: 1px solid black;
+    margin-bottom: -1px;
+    margin-right: -1px;
+  }
+
+  .filler-day {
+    border: 1px solid white;
+  }
 }

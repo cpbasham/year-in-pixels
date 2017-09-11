@@ -1,8 +1,13 @@
-.pixel {
-  display: inline-block;
-  width: 10vw;
-  padding-top: 10vw;
-  border: 1px solid black;
-  margin-bottom: -1px;
-  margin-right: -1px;
+.Pixel {
+  position: relative;
+  border-color: black;
+  // width: 10vw;
+
+  .date {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    user-select: none;
+    cursor: default;
+  }
 }

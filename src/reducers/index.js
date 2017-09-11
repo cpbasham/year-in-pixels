@@ -1,11 +1,11 @@
 import {combineReducers} from 'redux';
-import {yearReducer} from "./yearReducer";
-import {colorReducer} from "./colorReducer";
+import {moodsReducer} from "./moodsReducer";
+import {moodKeyReducer} from "./moodKeyReducer";
 
 
 const rootReducer = combineReducers({
-  color: colorReducer,
-  year: yearReducer
+  moodKey: moodKeyReducer,
+  moods: moodsReducer
 });
 
 export default rootReducer;
