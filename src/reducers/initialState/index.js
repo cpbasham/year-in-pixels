@@ -1,5 +1,5 @@
 export var moodKey = {
-  currentMoodIndex: 0,
+  activeMoodIndex: 0,
   moods: [
     {mood: "angry", color: "#550000"},
     {mood: "sad",   color: "#000055"},
@@ -8,9 +8,4 @@ export var moodKey = {
 }
 
 export var moods = {
-  2017: {
-    8: {
-      11: 0
-    }
-  }
 }

@@ -21,7 +21,8 @@ class Month extends React.Component {
       <div className="Month">
         <MoodKey moodKey={this.props.moodKey}
                  onChangeMood={this.props.changeMood}
-                 onChangeColor={this.props.changeColor} />
+                 onChangeColor={this.props.changeColor}
+                 onChangeActiveMoodIndex={this.props.changeActiveMoodIndex}/>
         {squares.map((e, i) => {
           if (e === "filler-day") {
             return <div key={i} className="day filler-day"></div>

@@ -17,6 +17,7 @@ export default class MoodKey extends React.PureComponent {
                      defaultValue={mood.get("color")}
                      onChange={event => this.props.onChangeColor(i, event.target.value)}>
               </input>
+              <button onClick={_ => this.props.onChangeActiveMoodIndex(i)}></button>
             </div>
           );
         })}
