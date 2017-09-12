@@ -12,7 +12,7 @@ export function changeActiveMoodIndex(index) {
   }
 }
 
-export function changeMood(index, newMood) {
+export function changeMood(index, mood) {
   return {
     type: CHANGE_MOOD,
     payload: {
@@ -22,7 +22,7 @@ export function changeMood(index, newMood) {
   }
 }
 
-export function changeColor(index, newColor) {
+export function changeColor(index, color) {
   return {
     type: CHANGE_COLOR,
     payload: {
